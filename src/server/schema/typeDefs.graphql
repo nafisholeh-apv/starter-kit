@@ -45,11 +45,31 @@ type AuthenticatorSetup {
   secret: String!
 }
 
+input CreateLifeProps {
+  birthday: DateTime!
+  description: String!
+  firstName: String!
+  hobbies: [String!]!
+  lastName: String!
+  title: String!
+}
+
 scalar DateTime
 
 union ExternalLink = ResetPasswordLink
 
 scalar JSONObject
+
+type Life {
+  birthday: DateTime!
+  description: String!
+  firstName: String!
+  fullName: String!
+  hobbies: [String!]!
+  id: ObjectID!
+  lastName: String!
+  title: String!
+}
 
 type MessageNotice {
   date: DateTime!
@@ -73,6 +93,8 @@ type Mutation {
   completeWebPublicKeyCredentialRegistration(response: JSONObject!, token: String!): Boolean!
   """Create a new account/user"""
   createAccount(email: String!, password: String!, username: String!): User!
+  """Create a new life"""
+  createLife(life: CreateLifeProps!): Life!
   """Disable 2FA / Authenticator for the signed user"""
   disableAuthenticator: User!
   """Enable 2FA / Authenticator for the signed user"""
@@ -128,8 +150,12 @@ type Query {
   generateAuthenticatorChallenge(username: String!): AuthenticationWithWebPublicKeyCredential
   """Generate authenticator secret and qrcode"""
   generateAuthenticatorSetup: AuthenticatorSetup!
+  """Retrieve a specific Life"""
+  getLife(lifeId: ObjectID!): Life
   """Fetch WebAuthn security keys for a username"""
   getWebauthnKeys(username: String!): [String!]!
+  """Retrieve a list of lives"""
+  listLives: [Life!]
   """List users"""
   listUsers(filter: UserFilteringRule, pagination: Pagination!, sort: UserSortingRule): PaginatedUsers!
   """Retrieve a link information"""

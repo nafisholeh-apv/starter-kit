@@ -12,3 +12,4 @@ export { default as revokeWebPublicKeyCredential } from './revokeWebPublicKeyCre
 export { default as revokeUserSession } from './revokeUserSession';
 export { default as authenticateWithWebPublicKeyCredential } from './authenticateWithWebPublicKeyCredential';
 export { default as disableAuthenticator } from './disableAuthenticator';
+export { default as createLife } from './createLife';
