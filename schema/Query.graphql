@@ -37,5 +37,5 @@ type Query {
     """
     Retrieve a list of lives
     """
-    listLives: [Life!]
+    listLives: [Life!]!
 }
