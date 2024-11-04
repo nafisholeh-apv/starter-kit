@@ -9,6 +9,11 @@ type ItemMeta = { key: string; label: string; href?: string; children?: ItemMeta
 const generateMenu = (t: TFunction): ItemMeta[] => [
     { key: '1', label: t('common:mainMenu.home'), href: '/' },
     {
+        key: 'life',
+        label: 'Lives',
+        href: '/lives',
+    },
+    {
         key: 'subMenu',
         label: '404/500 pages',
         children: [

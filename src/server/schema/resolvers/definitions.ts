@@ -250,7 +250,7 @@ export type GraphQLQuery = {
   /** Fetch WebAuthn security keys for a username */
   getWebauthnKeys: Array<Scalars['String']>;
   /** Retrieve a list of lives */
-  listLives?: Maybe<Array<GraphQLLife>>;
+  listLives: Array<GraphQLLife>;
   /** List users */
   listUsers: GraphQLPaginatedUsers;
   /** Retrieve a link information */
@@ -612,7 +612,7 @@ export type GraphQLQueryResolvers<ContextType = Context, ParentType extends Grap
   generateAuthenticatorSetup?: Resolver<GraphQLResolversTypes['AuthenticatorSetup'], ParentType, ContextType>;
   getLife?: Resolver<Maybe<GraphQLResolversTypes['Life']>, ParentType, ContextType, RequireFields<GraphQLQueryGetLifeArgs, 'lifeId'>>;
   getWebauthnKeys?: Resolver<Array<GraphQLResolversTypes['String']>, ParentType, ContextType, RequireFields<GraphQLQueryGetWebauthnKeysArgs, 'username'>>;
-  listLives?: Resolver<Maybe<Array<GraphQLResolversTypes['Life']>>, ParentType, ContextType>;
+  listLives?: Resolver<Array<GraphQLResolversTypes['Life']>, ParentType, ContextType>;
   listUsers?: Resolver<GraphQLResolversTypes['PaginatedUsers'], ParentType, ContextType, RequireFields<GraphQLQueryListUsersArgs, 'pagination'>>;
   retrieveLink?: Resolver<Maybe<GraphQLResolversTypes['ExternalLink']>, ParentType, ContextType, RequireFields<GraphQLQueryRetrieveLinkArgs, 'id'>>;
 };

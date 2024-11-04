@@ -155,7 +155,7 @@ type Query {
   """Fetch WebAuthn security keys for a username"""
   getWebauthnKeys(username: String!): [String!]!
   """Retrieve a list of lives"""
-  listLives: [Life!]
+  listLives: [Life!]!
   """List users"""
   listUsers(filter: UserFilteringRule, pagination: Pagination!, sort: UserSortingRule): PaginatedUsers!
   """Retrieve a link information"""
