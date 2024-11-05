@@ -1,0 +1,19 @@
+{
+    "data": {
+        "getLife": {
+            "id": "67285e8ae7dc6c6406422a53",
+            "firstName": "Cameron",
+            "lastName": "Taleweaver",
+            "fullName": "Cameron Taleweaver",
+            "birthday": "sjakjaskfja",
+            "title": "The Storyteller",
+            "description": "Cameron is known for their unwavering dedication to the art of storytelling. From an early age, they captivated audiences with tales woven from their boundless imagination. Whether through the written word or vibrant performances, Cameron's stories inspire and evoke deep emotions.\n\nAs they grew older, their passion expanded into screenwriting and directing short films. The journey was filled with challenges, but Cameron's belief in the power of storytelling kept them going. Their works have now been featured in local festivals, earning a reputation as an artist who dares to explore the human condition.\n\nIn moments of quiet, Cameron can be found crafting new ideas in a leather-bound journal or sharing wisdom with budding storytellers.",
+            "hobbies": [
+                "writing stories",
+                "directing short films",
+                "mentoring young writers"
+            ],
+            "__typename": "Life"
+        }
+    }
+}

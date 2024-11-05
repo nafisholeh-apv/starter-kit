@@ -8,3 +8,4 @@ export { default as ExternalLink } from './ExternalLink';
 export { default as ResetPasswordLink } from './ResetPasswordLink';
 export { default as UserSession } from './UserSession';
 export { default as SystemMessage } from './SystemMessage';
+export { default as Life } from './Life';

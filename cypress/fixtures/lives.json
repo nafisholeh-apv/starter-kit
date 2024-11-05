@@ -1,0 +1,199 @@
+{
+    "data": {
+        "listLives": [
+            {
+                "id": "672485c7e7dc6c6406422a52",
+                "firstName": "Sumanto",
+                "lastName": "Antono",
+                "fullName": "Sumanto Antono",
+                "birthday": "2001-05-18T13:34:00.000Z",
+                "title": "Angel-004",
+                "description": "the angels ruling the world",
+                "hobbies": [
+                    "rule the world!",
+                    "creating hooman"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285e8ae7dc6c6406422a53",
+                "firstName": "Cameron",
+                "lastName": "Taleweaver",
+                "fullName": "Cameron Taleweaver",
+                "birthday": "1998-11-08T10:00:00.000Z",
+                "title": "The Storyteller",
+                "description": "Cameron is known for their unwavering dedication to the art of storytelling. From an early age, they captivated audiences with tales woven from their boundless imagination. Whether through the written word or vibrant performances, Cameron's stories inspire and evoke deep emotions.\n\nAs they grew older, their passion expanded into screenwriting and directing short films. The journey was filled with challenges, but Cameron's belief in the power of storytelling kept them going. Their works have now been featured in local festivals, earning a reputation as an artist who dares to explore the human condition.\n\nIn moments of quiet, Cameron can be found crafting new ideas in a leather-bound journal or sharing wisdom with budding storytellers.",
+                "hobbies": [
+                    "writing stories",
+                    "directing short films",
+                    "mentoring young writers"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285e93e7dc6c6406422a54",
+                "firstName": "Mira",
+                "lastName": "Mariner",
+                "fullName": "Mira Mariner",
+                "birthday": "1985-05-12T14:30:00.000Z",
+                "title": "Ocean Explorer",
+                "description": "Mira, an adventurer at heart, has always been drawn to the mysteries of the deep. Starting as a marine biologist, she quickly became known for her daring expeditions and discoveries of previously unknown aquatic species. Her passion lies not only in exploration but in conservation, advocating for marine life and the protection of oceans worldwide.\n\nOne of Mira’s most celebrated achievements was leading a team to document the luminescent creatures of the deep sea, a feat that combined her expertise and love for storytelling. The resulting documentary shed light on the fragile ecosystem few had ever witnessed.\n\nWhen not navigating the seas, Mira enjoys speaking at conferences and teaching the next generation about the beauty and importance of the underwater world.",
+                "hobbies": [
+                    "deep-sea diving",
+                    "filming documentaries",
+                    "advocating for ocean conservation"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ea4e7dc6c6406422a55",
+                "firstName": "Ariana",
+                "lastName": "Wanderer",
+                "fullName": "Ariana Wanderer",
+                "birthday": "1995-07-22T09:15:00.000Z",
+                "title": "Explorer Extraordinaire",
+                "description": "An explorer known for their boundless curiosity and relentless energy.",
+                "hobbies": [
+                    "exploring new places",
+                    "climbing mountains",
+                    "reading"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ea9e7dc6c6406422a56",
+                "firstName": "Victor",
+                "lastName": "Thorne",
+                "fullName": "Victor Thorne",
+                "birthday": "1982-03-10T17:45:00.000Z",
+                "title": "Mastermind",
+                "description": "A brilliant strategist with an eye for detail.",
+                "hobbies": [
+                    "chess",
+                    "solving puzzles"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285eafe7dc6c6406422a57",
+                "firstName": "Kiana",
+                "lastName": "Codewright",
+                "fullName": "Kiana Codewright",
+                "birthday": "2010-11-30T05:25:00.000Z",
+                "title": "Young Innovator",
+                "description": "The playful genius behind many technological marvels.",
+                "hobbies": [
+                    "programming",
+                    "playing with AI",
+                    "creating games"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285eb6e7dc6c6406422a58",
+                "firstName": "Lucas",
+                "lastName": "Crafts",
+                "fullName": "Lucas Crafts",
+                "birthday": "1977-08-13T20:30:00.000Z",
+                "title": "The Artisan",
+                "description": "An artist whose works speak louder than words.",
+                "hobbies": [
+                    "painting",
+                    "sculpting",
+                    "music"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ebde7dc6c6406422a59",
+                "firstName": "Ravi",
+                "lastName": "Sage",
+                "fullName": "Ravi Sage",
+                "birthday": "1992-02-02T14:10:00.000Z",
+                "title": "Thinker",
+                "description": "A philosopher and deep thinker.",
+                "hobbies": [
+                    "debating",
+                    "writing essays",
+                    "meditating"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ec5e7dc6c6406422a5a",
+                "firstName": "Zara",
+                "lastName": "Swift",
+                "fullName": "Zara Swift",
+                "birthday": "2005-06-05T08:00:00.000Z",
+                "title": "The Speedster",
+                "description": "A speedster known for never slowing down.",
+                "hobbies": [
+                    "running marathons",
+                    "cycling",
+                    "hiking"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ecde7dc6c6406422a5b",
+                "firstName": "Nolan",
+                "lastName": "Whisper",
+                "fullName": "Nolan Whisper",
+                "birthday": "1989-09-14T12:22:00.000Z",
+                "title": "The Detective",
+                "description": "A mysterious individual known for solving cold cases.",
+                "hobbies": [
+                    "solving mysteries",
+                    "writing mystery novels",
+                    "observing people"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ed4e7dc6c6406422a5c",
+                "firstName": "Hana",
+                "lastName": "Melody",
+                "fullName": "Hana Melody",
+                "birthday": "1970-12-24T23:59:00.000Z",
+                "title": "Maestro",
+                "description": "A musician whose melodies soothe the soul.",
+                "hobbies": [
+                    "playing guitar",
+                    "composing music",
+                    "teaching music theory"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285edce7dc6c6406422a5d",
+                "firstName": "Leo",
+                "lastName": "Jester",
+                "fullName": "Leo Jester",
+                "birthday": "2003-04-01T15:45:00.000Z",
+                "title": "The Comedian",
+                "description": "A comic whose laughter is contagious.",
+                "hobbies": [
+                    "stand-up comedy",
+                    "pranking friends",
+                    "watching sitcoms"
+                ],
+                "__typename": "Life"
+            },
+            {
+                "id": "67285ee4e7dc6c6406422a5e",
+                "firstName": "Elena",
+                "lastName": "Nomad",
+                "fullName": "Elena Nomad",
+                "birthday": "1996-01-19T02:35:00.000Z",
+                "title": "Globetrotter",
+                "description": "A wanderer with stories from every corner of the globe.",
+                "hobbies": [
+                    "traveling",
+                    "photography",
+                    "writing travel blogs"
+                ],
+                "__typename": "Life"
+            }
+        ]
+    }
+}

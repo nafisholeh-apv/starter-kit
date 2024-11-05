@@ -1,0 +1,16 @@
+{
+    "titles": {
+        "id": "ID",
+        "fullName": "Name",
+        "title": "Title",
+        "description": "Description",
+        "birthday": "Birthday",
+        "hobbies": "Hobbies",
+        "general": "General Info",
+        "detailPage": "Life of {{id}}",
+        "listPage": "Life database"
+    },
+    "state": {
+        "empty": "No lives available at the moment. Try adding a new life."
+    }
+}
